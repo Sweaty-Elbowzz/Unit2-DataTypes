@@ -22,16 +22,32 @@
 # else:
 #     print('cold')
 
-x = "this is a thing"
-y= x.split( )
-z = y[0]
-print(y)
-print(z)
+# x = "this is a thing"
+# y= x.split( )
+# z = y[0]
+# print(y)
+# print(z)
 
-# question = input("Is 13 odd or even?")
-# print(question)
-# if question == "even":
-#     print("incorrect")
+# number = int(input("Enter a number: "))
+# if number % 2 == 0:
+#     print("even")
 # else:
-#     print("correct")
+#     print("odd")
 
+
+sentence = "How much was the bill?"
+print(sentence)
+bill = float(input())
+sentence = "How was our service?"
+print(sentence)
+service_options = ("bad", "okay", "good", "great")
+print(service_options)
+service = input()
+if service == "bad":
+    print("Would you like to leave a 0% tip?")
+elif service == "okay":
+    print("Would you like to leave a 10% tip?") 
+elif service == "good":
+    print("Would you like to leave a 15% tip?")
+elif service == "great":
+    print("Would you like to leave a 20% tip?")
