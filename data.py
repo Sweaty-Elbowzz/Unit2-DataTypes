@@ -35,19 +35,42 @@
 #     print("odd")
 
 
-sentence = "How much was the bill?"
-print(sentence)
-bill = float(input())
-sentence = "How was our service?"
-print(sentence)
-service_options = ("bad", "okay", "good", "great")
-print(service_options)
-service = input()
-if service == "bad":
-    print("Would you like to leave a 0% tip?")
-elif service == "okay":
-    print("Would you like to leave a 10% tip?") 
-elif service == "good":
-    print("Would you like to leave a 15% tip?")
-elif service == "great":
-    print("Would you like to leave a 20% tip?")
+# sentence = "How much was the bill?"
+# print(sentence)
+# bill = float(input())
+# sentence = "How was our service?"
+# print(sentence)
+# service_options = ("bad", "okay", "good", "great")
+# print(service_options)
+# service = input()
+# if service == "bad":
+#     print("Would you like to leave a 0% tip?")
+# elif service == "okay":
+#     print("Would you like to leave a 10% tip?") 
+# elif service == "good":
+#     print("Would you like to leave a 15% tip?")
+# elif service == "great":
+#     print("Would you like to leave a 20% tip?")
+# response = input()
+# if response == "yes":
+#     if service == "bad":
+#         tip = bill * 0
+#     elif service == "okay":
+#         tip = bill * 0.10
+#     elif service == "good":
+#         tip = bill * 0.15
+#     elif service == "great":
+#         tip = bill * 0.20
+#     total = bill + tip
+#     print("Your total is: ", total)
+
+# if response == "no":
+#     print("Your total is: ", bill)
+
+input = int(input("Enter a number: "))
+if input <= 0:
+    print("Please enter a positive number.")
+else:
+    for n in range(1, input + 1):
+        if n % input == 0:
+            print(n)
