@@ -22,8 +22,8 @@
 # else:
 #     print('cold')
 
-# x = "this is a thing"
-# y= x.split( )
+# x = "Jason"
+# y= x.split("s")
 # z = y[0]
 # print(y)
 # print(z)
@@ -67,10 +67,22 @@
 # if response == "no":
 #     print("Your total is: ", bill)
 
-input = int(input("Enter a number: "))
-if input <= 0:
-    print("Please enter a positive number.")
-else:
-    for n in range(1, input + 1):
-        if n % input == 0:
-            print(n)
+# input = int(input("Enter a number: "))
+# if input <= 0:
+#     print("Please enter a positive number.")
+# else:
+#     for n in range(1, input + 1):
+#         if input % n == 0:
+#             print(n)
+
+argument = int(input("Type a number: "))
+argument2 = int(input("Type another number: "))
+
+for n in range(1, argument + 1):
+    if argument % n == 0:
+        print(n)
+for i in range(1, argument2 + 1):
+    if argument2 % i == 0:
+        print(i)
+if n  == i :
+    print(n)
