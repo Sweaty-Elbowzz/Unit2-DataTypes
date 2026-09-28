@@ -83,11 +83,6 @@ if argument < argument2:
                 store = n
 if argument2 < argument: 
     for n in range(1, argument2 + 1):
-        if argument2 % n == 0 and argument % n == 0:
+          if argument2 % n == 0 and argument % n == 0:
                 store = n
 print(store)
-# for i in range(1, argument2 + 1):
-    # if argument2 % i == 0:
-    #     print(i)
-# if argument == argument2:
-#     print(argument)
