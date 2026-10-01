@@ -1,6 +1,6 @@
 #string for characters
-name = "Kingsley"
-print(name.upper())
+# name = "Kingsley"
+# print(name.upper())
 #input asks the usera question and records the answer
 #what we write in input argument is what the user sees
 #input ALWAYS outputs the string
